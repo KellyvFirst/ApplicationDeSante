@@ -1,0 +1,31 @@
+# Fichiers et dossiers génériques à ignorer
+.DS_Store
+Thumbs.db
+
+# Backend Node.js
+## Dossier node_modules
+/backend/node_modules/
+
+## Fichier d'environnement
+/backend/.env
+
+# Frontend Flutter
+## Fichiers de configuration spécifiques à l'IDE (par exemple, pour VSCode ou IntelliJ)
+/.idea/
+/.vscode/
+
+## Dossiers de build Flutter
+/frontend/m_health_front/build/
+
+## Fichiers de configuration spécifiques à Flutter
+/frontend/m_health_front/ios/Flutter/Generated.xcconfig
+/frontend/m_health_front/android/app/google-services.json
+
+## Fichiers de journal
+/frontend/m_health_front/*.log
+
+## Autres fichiers/dossiers générés
+/frontend/m_health_front/.dart_tool/
+/frontend/m_health_front/.flutter-plugins
+/frontend/m_health_front/.flutter-plugins-dependencies
+/frontend/m_health_front/.packages
